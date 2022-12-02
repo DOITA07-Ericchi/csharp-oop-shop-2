@@ -28,7 +28,7 @@ namespace CSharpShop2 {
                 this.sorgente = sorgente;
             }
             else {
-                throw new ArgumentException("Bzz. Il PH non può essere modificato.");
+                throw new ArgumentException("Bzz. La sorgente non può essere modificata.");
             }
         }
 
